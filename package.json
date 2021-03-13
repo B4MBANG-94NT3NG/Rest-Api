@@ -1,5 +1,5 @@
 {
-  "name": "api-zhirrr",
+  "name": "DapX Api",
   "version": "1.1.0",
   "description": "My Rest Api Projectttttt",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "rest",
     "api"
   ],
-  "author": "Zhirrr",
+  "author": "Dappa",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Zhirrr/Zhirrr-Api/issues"
