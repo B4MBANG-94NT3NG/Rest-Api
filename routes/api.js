@@ -41,7 +41,7 @@ loghandler = {
         creator: `${creator}`,
         code: 406,
         message: 'masukan parameter apikey',
-        getApikey: 'gak punya apikey? chat gw aja yaaa di wa.me/6285876330812 , key nya gratis kok gan, jadi santuyy ajaa'
+        getApikey: 'apikey gratis https://wa.me/6285876330812'
     },
     notkey: {
         status: false,
@@ -113,7 +113,7 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'apikey invalid, gak punya apikey? chat gw aja yaaa di wa.me/6285876330812 , key nya gratis kok gan, jadi santuyy ajaa'
+        message: 'apikey gratis https://wa.me/6285876330812'
     },
     invalidlink: {
         status: false,
