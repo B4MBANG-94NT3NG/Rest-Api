@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')
 }
 
-var creatorList = ['@scytfdhd._','@scytfdhd._','@scytfdhd._','@scytfdhd._', '@scytfdhd._','@scytfdhd._','@scytfdhd._'];
+var creatorList = ['@sadboy.edtz','@sadboy.edtz','@sadboy.edtz','@sadboy.edtz', '@sadboy.edtz','@sadboy.edtz','@sadboy.edtz'];
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 
 
@@ -41,7 +41,7 @@ loghandler = {
         creator: `${creator}`,
         code: 406,
         message: 'masukan parameter apikey',
-        getApikey: 'beli apikey  https://wa.me/6285866121929'
+        getApikey: 'beli apikey  https://wa.me/6282313021398'
     },
     notkey: {
         status: false,
@@ -113,7 +113,7 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'apikey gratis https://wa.me/6285876330812'
+        message: 'beli apikey https://wa.me/6282313021398'
     },
     invalidlink: {
         status: false,
@@ -153,7 +153,7 @@ var len = 15
             randomlagi += arr[Math.floor(Math.random() * arr.length)];
         }
 
-        var randomTextNumber = random+randomlagi+'---------DappaGanteng'+'DAPPA--GANS';
+        var randomTextNumber = random+randomlagi+'---------BambangGanteng'+'BAMBANG--GANS';
         
  
  async function cekApiKey(api) {
@@ -263,7 +263,7 @@ router.get('/remove', (req, res, next) => {
 
     if (!apikey) return res.json(loghandler.notparam)
     if (!(status && apikeyInput && email && nomorhp && name && age && country && exp)) return res.json(loghandler.notAddApiKey)
-    if (apikey != 'dappabotwa') return res.json(loghandler.invalidKey)
+    if (apikey != 'BambangGanz') return res.json(loghandler.invalidKey)
 
     try {
         zahirr.remove({
