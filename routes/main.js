@@ -4,7 +4,10 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', (req, res) => {
-    res.sendFile(__path + '/views/index.html')
+    res.sendFile(__path + 'views/open.html')
+})
+router.get('/', (req, res) => {
+    res.sendFile(__path + '/views/doc.html')
 })
 
 router.get('/about', (req, res) => {
